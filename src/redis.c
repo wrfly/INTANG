@@ -13,7 +13,7 @@
 
 
 #define REDIS_SERVER_IP "127.0.0.1"
-#define REDIS_SERVER_PORT 6389
+#define REDIS_SERVER_PORT 6379
 #define REIDS_TOKEN "38rh3fF%(!"
 
 
