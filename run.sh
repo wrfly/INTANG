@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo ./bin/intangd $1 || echo "intangd not found. Maybe run make first."
+./bin/intangd $1
 
+exec tail -f /var/log/intangd.log
 
 
